@@ -5,3 +5,31 @@ Just begin test
 
 fprintf('\nHello world.');
 fprintf('\nI prefer Fry Chicken more than Apple Pie!');
+
+//After pull and merge, let's do something different.
+
+module Fulladder (
+      input A,
+      input B,
+      input Ci,
+      output S,
+      output Co
+      )
+  
+  halfadder HA1(A,B,ps,pc);
+  halfadder HA2(ps,Ci,S,fc);
+  OR(Co,fc,pc);
+endmodule
+
+module halfadder(
+      input ha,
+      input hb,
+      output hs,
+      output hc
+      )
+
+  AND(hc,ha,hb);
+  XOR(hs,ha,hb);
+endmodule
+
+
