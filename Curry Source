@@ -1,0 +1,24 @@
+// Curry Source ver 2021/10/26 
+
+fprintf('\nThe curry source list below. 2 person served.');
+fprintf('\nIt's preprocess and you need to re-heat before you eat.');
+fprintf('\nIngredient:');
+fprintf('\nCurry powder(or compressed box) 50g.');
+fprintf('\nWater 100g.');
+fprintf('\nPork 80g.');
+fprintf('\nPotato 140g.');
+fprintf('\nCarrot 140g.');
+fprintf('\nOmion 140g.');
+
+fprintf('\nPre Process:');
+fprintf('\nPeel and Dice listed ingredients, size as you like.');
+fprintf('\nStir fry omion until it turn yellow. Move to another plate.');
+fprintf('\nUse same pot to stir fry pork. Keep heat until no water only oil inside.');
+
+fprintf('\nBoil water, put carrot and potato roughly 5 minute.');
+fprintf('\nMixed curry powder and stir. Turn down the fire.');
+fprintf('\nPut omion and pork in curry source. Keep stir 5 minute.');
+fprintf('\nTurn off the fire and let curry cool down naturally.');
+
+fprintf('\nRe-heat curry when you are ready to eat. Enjoy!');
+
